@@ -1,9 +1,93 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>it works!</title>
-   </head>
-   <body>
-   MY WEBPAGE!
-  </body>
+    <head>
+        <meta charset="utf-8" />
+        
+        <title>aIMG</title>
+        
+        <!-- Our CSS stylesheet file -->
+       <link rel="stylesheet" href="css/styles.css" />
+        
+    
+        
+        <!-- Enabling HTML5 support for Internet Explorer -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+	  <!-- Slider code begins-->
+<ul id="slider">
+    <li>
+	<img class="aimg" src="img/1.jpg"/>
+	 <div class="object" initial-top="100px" initial-left="-100px" final-left="0px" duration="1" easing="easeOutBounce" ><h1 class="title">Polar Bear</h1></div>
+	 <div class="object" initial-top="162px" initial-left="-100px" final-left="0px" duration="1" easing="easeOutBounce" ><h1 class="title">Carnivore</h1></div>
+	 <div class="object" initial-top="222px" initial-left="-100px" final-left="0px" duration="1" easing="easeOutBounce" ><h1 class="title">Mammal</h1></div>
+     <div class="object" initial-top="282px" initial-left="-100px" final-left="0px" duration="1" easing="easeOutBounce" ><h1 class="title">700kg</h1></div>
+	 <div class="object" initial-top="342px" initial-left="-100px" final-left="0px" duration="1" easing="easeOutBounce" ><h1 class="title">10feet</h1></div>
+	 <div class="object" delay="1" fade-from="0" fade-to="1" initial-top="120px" initial-left="480px" final-left="580px" duration="1" easing="easeOutSine" ><h1  class="maintitle" style="font-size:40px;" >OpenCanvas</h1></div>
+	 <div class="object" delay="1.2" fade-from="0" fade-to="1" initial-top="175px" initial-left="700px" final-left="580px" duration="1" easing="easeOutSine" ><h1 class="maintitle">AN EVOLUTION IN</h1></div>
+	 <div class="object" delay="1.8" fade-from="0" fade-to="1" initial-top="230px" initial-left="560px" final-left="580px" duration="1" easing="easeOutBack" ><h1 class="maintitle">CONTENT PRESENTATION</h1></div>
+	</li>
+	
+	<li >
+   <img class="aimg" src="img/2.jpg" />
+  
+   <div class="object" style="width: 580px; height:250px; background-color: rgba(255,255,255,0.7);overflow:hidden; border: 1px solid rgba(255,255,255,0.4); border-radius:10px;"  initial-left="15%" initial-top="150px" final-left="20%"  duration="1" >
+   <img src="img/penguin.jpg" style="float:left;margin-right:10px;"></img>
+   <div style="color:rgba(80,80,80,1);padding:10px;">
+   <h1>Penguins</h1><p>Penguins are superbly adapted to aquatic life. Their vestigial wings have become flippers, useless for flight in the air. In the water, however, penguins are astonishingly agile. Penguins' swimming looks very similar to bird's flight in the air. </p>
+   <p id="moreInfo"><a href="http://en.wikipedia.org/wiki/Penguin">More Information?</a></p>
+   </div></div>
+   <div class="object"  style="font-size:40px;" delay="0.5" fade-from="0" fade-to="1" initial-top="25px" initial-left="300px" final-left="320px" duration="1" easing="easeOutCirc" ><h1 class="maintitle">FULLY CUSTOMIZABLE</h1></div>
+   <div class="object"  style="font-size:40px;" delay="0.7" fade-from="0" fade-to="1" initial-top="60px"  final-top="80px" initial-left="570px" duration="1" easing="easeOutCirc" ><h1 class="maintitle">EASY TO USE</h1></div>
+  </li>
+   
+   <li transition="float">
+    <div class="object bigInfoCircle" initial-top="150px" initial-left="10px" final-left="40px" duration="1" easing="easeOutElastic">CONTROL EVERY ELEMENT IN THE SLIDER</div>
+	
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="0.3" initial-top="60px" initial-left="200px" final-left="260px" duration="1" easing="easeOutBounce">Object Animation</div>
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="0.3" initial-top="460px" initial-left="200px" final-left="260px" duration="1" easing="easeOutBounce">Object Easing</div>
+	
+	
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="0.3" initial-top="150px" initial-left="300px" final-left="350px" duration="0.5" easing="easeOutBounce">Show /Hide Buttons</div>
+    <div class="object infoCircle" fade-from="0" fade-to="1" delay="1" initial-top="110px" initial-left="350px" final-left="460px" duration="1" easing="easeOutCirc">Button Images</div>
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="1" initial-top="70px" initial-left="460px" final-left="570" duration="1" easing="easeOutCirc">Button CSS</div>
+	
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="1" initial-top="260px" initial-left="490px" final-left="600px" duration="1" easing="easeOutCirc">Manual Advance</div>
+    <div class="object infoCircle" fade-from="0" fade-to="1" delay="1" initial-top="260px" initial-left="380px" final-left="490px" duration="1" easing="easeOutCirc">Replay Slides</div>
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="0.3" initial-top="260px" initial-left="300px" final-left="380px" duration="0.5" easing="easeOutBounce">Pattern Overlay</div>
+	
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="0.3" initial-top="370px" initial-left="300px" final-left="350px" duration="0.5" easing="easeOutBounce">Transition Speed</div>
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="1" initial-top="410px" initial-left="350px" final-left="460px" duration="1" easing="easeOutCirc">Transition Delay</div>
+	<div class="object infoCircle" fade-from="0" fade-to="1" delay="1" initial-top="440px" initial-left="460px" final-left="570px" duration="1" easing="easeOutCirc">Transition Type</div>
+	
+	
+  <img class="aimg" src="img/3.jpg" />  
+   </li>
+   
+    <li>
+   <div class="object" initial-top="130px" initial-left="-100px" final-left="-50px" duration="1" easing="easeOutElastic"><h1 id="buyNow">Buy Now!</h1></div>
+   <img class="aimg" src="img/4.jpg" />
+   </li>
+</ul> 
+
+  <!-- Javascript files -->
+<script src="js/jQuery.js" type="text/javascript"></script>
+<script src="js/openCanvas-packed.js" type="text/javascript"></script>
+
+  <!-- Calling slider -->
+<script type="text/javascript" charset="utf-8">
+	$('#slider').jwSlider({
+    overlay:true,
+	pause:8000,
+    transition: 'fade',	
+	replay:false
+	});
+	
+	
+</script>
+            
+    </body>
 </html>
